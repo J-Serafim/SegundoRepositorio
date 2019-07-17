@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let arr1 = [];
+    let arr2 = [];
+    for(let i = 0; i <= 2; i++){
+        let nome = window.prompt("Digite o nome: ");
+        let nota = window.prompt("Digite a nota");
+        arr2.push(nota);
+        arr1.push(nome);
+    }
+    for(cont = 0; cont < arr1.length; cont++){
+    document.write(`<p> O nome é: ${arr1[cont]}. A nota é: ${arr2[cont]}.</p>`);
+    }
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arr = [];
+        let cont = 0;
+        let menor = 0;
+        for(let i = 0; i <= 2; i++){
+            let nota = window.prompt("Digite a nota: ");
+            arr.push(nota);
+            let maiorNota = nota;
+            menor = parseInt(arr);
+            if(cont <= maiorNota){
+                cont = parseInt(maiorNota);
+            }
+            if(menor > nota){
+                menor = parseInt(nota);
+            }
+
+        }
+        document.write(`<p> A maior nota é: ${cont}</p>`);
+        document.write(`A menor nota é: ${menor}`);
+    </script>
+</body>
+</html>
