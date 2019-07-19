@@ -1,0 +1,9 @@
+- bit.ly/ApostilaBD
+
+- Sql server (developer) - https://www.microsoft.com/pt-br/sql-server/sql-server-downloads
+
+- Sql management studio 18.1 - https://docs.microsoft.com/pt-br/sql/ssms/download-sql-server-management-studio-ssms?view=sql-server-2017
+
+- Estudar: 1 ->>>>Stored procedure<<<<
+
+	   2 -docs microsoft
